@@ -1,7 +1,7 @@
 target_include_directories(
-    util_A
+    UtilA
     PUBLIC
     "${CMAKE_CURRENT_LIST_DIR}"
 )
 
-add_subdirectory(util_A)
+add_subdirectory(UtilA)

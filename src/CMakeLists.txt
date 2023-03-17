@@ -1,5 +1,5 @@
 target_sources(
-    util_A
+    UtilA
     PRIVATE
     "${CMAKE_CURRENT_LIST_DIR}/greet.cpp"
 )

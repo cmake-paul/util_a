@@ -1,20 +1,20 @@
 include(FetchContent)
 
 FetchContent_Declare(
-    common
+    Common
     GIT_REPOSITORY https://github.com/cmake-paul/common.git
     GIT_TAG main
 )
 
 FetchContent_MakeAvailable(common)
 
-add_library(util_A)
+add_library(UtilA)
 
 add_subdirectory(include)
 add_subdirectory(src)
 
 target_link_libraries(
-    util_A
+    UtilA
     PRIVATE
     common_umbrella
 )
