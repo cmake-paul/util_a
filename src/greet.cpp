@@ -3,6 +3,6 @@
 #include <iostream>
 
 void greet_world() {
-    std::cout << "This is UtilA, echoing you the following greeting:\n"
+    std::cout << "This is util_a, echoing you the following greeting:\n"
               << "'" << generate_greeting() << "'\n";
 }
