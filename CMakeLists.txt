@@ -6,7 +6,7 @@ FetchContent_Declare(
     GIT_TAG main
 )
 
-FetchContent_MakeAvailable(common)
+FetchContent_MakeAvailable(Common)
 
 add_library(UtilA)
 
@@ -16,5 +16,5 @@ add_subdirectory(src)
 target_link_libraries(
     UtilA
     PRIVATE
-    common_umbrella
+    CommonUmbrella
 )
