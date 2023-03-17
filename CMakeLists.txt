@@ -5,3 +5,11 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(common)
+
+add_library(util_A)
+
+target_link_libraries(
+    util_A
+    PRIVATE
+    common_umbrella
+)
