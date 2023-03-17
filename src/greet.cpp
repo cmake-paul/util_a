@@ -1,4 +1,4 @@
-#include <Common/gen_greet.h>
+#include <common/gen_greet.h>
 
 #include <iostream>
 
