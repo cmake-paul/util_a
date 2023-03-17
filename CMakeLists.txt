@@ -10,6 +10,9 @@ FetchContent_MakeAvailable(common)
 
 add_library(util_A)
 
+add_subdirectory(include)
+add_subdirectory(src)
+
 target_link_libraries(
     util_A
     PRIVATE
